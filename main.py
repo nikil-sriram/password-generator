@@ -9,4 +9,6 @@ passwords = [[] for i in range(amountofpasswords)]
 
 for i in range(amountofpasswords):
     testing = random.sample(charssplitted, amountofcharacters)
-    print(testing)
+    stringconverter = ','.join(testing)
+    new_string = stringconverter.replace(',', '')
+    print(new_string)
