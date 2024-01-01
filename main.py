@@ -7,5 +7,6 @@ charssplitted = chars.split()
 
 passwords = [[] for i in range(amountofpasswords)]
 
-testing = random.sample(charssplitted, amountofcharacters)
-print(testing)
+for i in range(amountofpasswords):
+    testing = random.sample(charssplitted, amountofcharacters)
+    print(testing)
